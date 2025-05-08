@@ -52,7 +52,7 @@ class Fighter extends Sprite {
   constructor({
     possition,
     velocity,
-    color = "red",
+    color = "green",
     imgSrc,
     scale = 1,
     framesMax = 1,
@@ -69,8 +69,8 @@ class Fighter extends Sprite {
     });
     this.possition = possition;
     this.velocity = velocity;
-    this.width = 50;
-    this.height = 150;
+    this.width = 100;
+    this.height = 200;
     this.lastKey;
     this.color = color;
     this.isAttacking;
